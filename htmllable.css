@@ -1,0 +1,12 @@
+hint{
+    color: grey;
+    font-size: smaller;
+}
+
+a:active{
+    color: pink;
+}
+
+a:hover{
+    color: brown;
+}

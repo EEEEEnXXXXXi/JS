@@ -1,0 +1,33 @@
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: left;
+    text-indent: 32px;
+    text-decoration:dashed;
+    letter-spacing: 2px;
+}
+
+.tryfont1{
+    font-family: fantasy;
+}
+
+.tryfont2{
+    font-size: 20px;
+}
+
+.tryfont3{
+    line-height: 1;
+}
+
+.tryfont4{
+    text-align: center;
+}
+
+.tryfont5{
+    text-indent: 50px;
+}
+
+.tryfont6{
+    text-decoration: underline;
+}
