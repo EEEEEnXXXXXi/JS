@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="boxmodle.css">
+</head>
+<body>
+    <p>
+        盒模型概念，一個區塊元素或者任何的h有標籤，不論是div、span、a標籤，他會涵蓋實際的寬度高度。padding、border、margin是整個加起來的。
+    </p>
+    
+    <div class="box">
+        padding會被納入實際高度，加總起來。
+        實際高度變成height+padding-top
+    </div>
+
+    <p>
+        不論是各種HTML標籤，影響到寬度的東西會寫width；高度會寫height。
+        設定完以後只有padding跟border會影響到實際的寬高。(實線)
+    </p>
+
+    <div class="wrap">
+        <div class="header">
+            <h2>水平置中</h2>
+        </div>
+
+        <div class="content">
+            <h2>水平置中</h2>
+        </div>
+
+        <div class="footer">
+            <h2>水平置中</h2>
+        </div>
+    </div>
+</body>
+</html>
