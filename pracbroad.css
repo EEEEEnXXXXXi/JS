@@ -1,3 +1,22 @@
 p{
     color: brown;
 }
+
+.style1 a{
+    color: red;
+}
+
+.style1 .content{
+    font-weight: bold;
+}
+
+.box{
+    width: 300px;
+    height: 500px;
+    border: 5px solid pink;
+}
+.box p{
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
