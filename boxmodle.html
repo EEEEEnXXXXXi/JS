@@ -14,6 +14,13 @@
     <div class="box">
         padding會被納入實際高度，加總起來。
         實際高度變成height+padding-top
+        box-sizing: content-box 是預設(有累加padding跟border)
+        box-sizing: border-box 是自動扣掉
+
+        *,*::before,*::after{
+            box-sizing: border-box;
+        }用這個讓所有HTML的標籤都吃到這個盒模型的計算方式
+
     </div>
 
     <p>
