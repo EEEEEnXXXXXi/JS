@@ -1,0 +1,52 @@
+.board ul .left{
+    justify-content: flex-start;
+}
+.board ul .center{
+    justify-content:center;
+}
+.board ul .space-around{
+    justify-content:space-around;
+}
+.board ul .right{
+    justify-content:flex-end;
+}
+.board ul .RandL{
+    justify-content:space-between;
+}
+
+.board img{
+    height: 300px;
+    width: 400px;
+}
+
+.board .insideitems .up{
+    align-items: flex-start;
+}
+.board .insideitems .center{
+    align-items: center;
+}
+.board .insideitems .stretch{
+    align-items: stretch;
+}
+.board .insideitems .down{
+    align-items:flex-end ;
+}
+.board .insideitems .baseline{
+    align-items: baseline;
+}
+
+.board .singleitem .up{
+    align-self: flex-start;
+}
+.board .singleitem .center{
+    align-self: center;
+}
+.board .singleitem .stretch{
+    align-self: stretch;
+}
+.board .singleitem .down{
+    align-self:flex-end ;
+}
+.board .singleitem .baseline{
+    align-self: baseline;
+}
