@@ -1,8 +1,9 @@
 .container{
-    display: flex;
+    display: flex;/*item並排*/
     background-color: bisque;
     width: 500px;
     margin:0 auto;
+    padding: 20px;
 }
 .item{
     width: 100px;
@@ -22,4 +23,28 @@
 }
 .item3{
     width: 400px;
+}
+.container2{
+    display: flex;/*item並排*/
+    background-color: bisque;
+    width: 500px;
+    margin:0 auto;
+    padding: 20px;
+    flex-direction: row-reverse;/*從右到左做排列 預設左到右是row*/
+    /*flex-direction: column 由上到下*/
+    /*flex-direction: column-reverse 由下到上*/
+}
+.container3{
+    display: flex;
+    background-color: cornflowerblue;
+    width: 500px;
+    height: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    justify-content: flex-start;
+    /*justify-content: center;
+    justify-content: space-around;
+    justify-content: flex-end;
+    justify-content: space-between;
+    justify-content: space-evenly;*/
 }
