@@ -2,7 +2,7 @@
     display: flex;
     background-color: bisque;
     width: 500px;
-    margin: auto;
+    margin:0 auto;
 }
 .item{
     width: 100px;
@@ -12,4 +12,14 @@
     font-size: 36px;
     text-align: center;
     margin: 10px;
+}
+.item1{
+    width: 150px;
+    height: 150px;
+}
+.item2{
+    height: 200px;
+}
+.item3{
+    width: 400px;
 }
